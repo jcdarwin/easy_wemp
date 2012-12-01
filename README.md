@@ -25,12 +25,12 @@ Easy WEMP is available at [https://projects.javatic.fr/p/easy-wemp/]()
 ## Installation ##
 
 ### Easy WEMP ###
-* Run Easy_WEMP-1.13-win32.exe
+* Run `Easy_WEMP-1.13-win32.exe`
 * Deselect PHP, MySQL, and MySQL Workbench (as the internal download URLs do not correctly resolve)
 * Continue, such that Easy WEMP is installed at c:\ewemp
 
 ### PHP ###
-* Extract php-5.4.9-Win32-VC9-x86.zip to:
+* Extract `php-5.4.9-Win32-VC9-x86.zip` to:
 
         c:\ewemp\php-5.4.9-Win32-VC9-x86
 
@@ -42,6 +42,7 @@ Easy WEMP is available at [https://projects.javatic.fr/p/easy-wemp/]()
         c:\ewemp\mysql-noinstall-5.1.47-win32
 
 * Copy one of the following to `my.ini` and tweak accordingly:
+
         my-huge.ini
         my-large.ini
         my-medium.ini
@@ -53,7 +54,7 @@ Easy WEMP is available at [https://projects.javatic.fr/p/easy-wemp/]()
         c:\ewemp\mysql-workbench-gpl-5.2.44-win32-noinstall
 
 ### Correct the Easy WEMP ini file ###
-* Edit c:\ewemp\ewemp.ini as follows (example settings can be found in c:\ewemp\README.txt):
+* Edit `c:\ewemp\ewemp.ini` as follows (example settings can be found in `c:\ewemp\README.txt`):
 
         nginx=nginx-0.8.52
         php=php-5.4.9-Win32-VC9-x86
@@ -98,3 +99,5 @@ Easy WEMP is available at [https://projects.javatic.fr/p/easy-wemp/]()
 * Navigate to:
 
         http://localhost/info.php
+
+Bingo!
