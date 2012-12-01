@@ -37,7 +37,7 @@ Easy WEMP is available at [https://projects.javatic.fr/p/easy-wemp/]()
 * Copy `c:\ewemp\php-5.4.9-Win32-VC9-x86\php-development.ini` to `php.ini`, and tweak accordingly.
 
 ### MySQL ###
-* Extract mysql-noinstall-5.1.47-win32 to:
+* Extract `mysql-noinstall-5.1.47-win32.zip` to:
 
         c:\ewemp\mysql-noinstall-5.1.47-win32
 
@@ -49,7 +49,7 @@ Easy WEMP is available at [https://projects.javatic.fr/p/easy-wemp/]()
         my-small.ini
 
 ### MySQL Workbench ###
-* Extract mysql-workbench-gpl-5.2.44-win32-noinstall.zip to:
+* Extract `mysql-workbench-gpl-5.2.44-win32-noinstall.zip` to:
 
         c:\ewemp\mysql-workbench-gpl-5.2.44-win32-noinstall
 
@@ -84,9 +84,11 @@ Easy WEMP is available at [https://projects.javatic.fr/p/easy-wemp/]()
         autostartdaemons=true
 
 ### Start it up ###
-* Place info.php in:
+* Create `info.php` in:
 
         C:\ewemp\nginx-0.8.52\html
+
+* Include the following in `info.php`:
 
         <?php 
         phpinfo();
